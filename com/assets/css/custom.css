@@ -1,0 +1,262 @@
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 30px;
+  background-color: #f8f9fa;
+  color: #2c3e50;
+}
+
+#wrapper {
+  width: 100%;
+  margin-top: 50px;
+}
+
+#page-wrapper {
+  padding: 15px 15px;
+  min-height: 600px;
+  background: #f8f9fa;
+}
+#page-inner {
+  width: 100%;
+  margin: 10px 20px 10px 0px;
+  background: #ffffff !important;
+  padding: 20px;
+  min-height: 1050px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+.pad-top {
+  padding-top: 15px;
+}
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+.sidebar-collapse .nav {
+  padding: 0;
+  padding-top: 50px;
+}
+
+.sidebar-collapse > .nav > li > a {
+  padding: 15px 10px;
+  color: #495057;
+  font-weight: 600;
+  font-size: 16px;
+}
+.sidebar-collapse > .nav > li {
+  border-bottom: 1px solid #e9ecef;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+  background: #4a90e2;
+  color: #fff;
+  outline: 0;
+}
+
+.navbar-side {
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar-inverse {
+  background-color: #ffffff;
+  border-color: #4a90e2;
+  min-height: 60px;
+}
+
+.nav > li > a > i {
+  margin-right: 10px;
+}
+.logout-spn {
+  float: right;
+  color: #495057;
+  font-size: 18px;
+  margin: 20px;
+  margin: 10px 25px 10px 50px;
+}
+.logout-spn a {
+  text-decoration: none;
+  color: #495057;
+}
+.active-link {
+  background-color: #4a90e2;
+  color: #fff;
+}
+.navbar-h2 {
+  color: #2c3e50;
+  font-size: 24px;
+  margin: 10px 0px 10px 20px;
+}
+
+/*==============================================
+    DASHBOARD STYLES    
+    =============================================*/
+.div-square {
+  padding: 5px;
+  border: 2px solid #e9ecef;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin: 5px;
+  background-color: #ffffff;
+}
+
+.div-square > a,
+.div-square > a:hover {
+  color: #495057;
+  text-decoration: none;
+}
+/*==============================================
+    FOOTER STYLES     
+    =============================================*/
+.footer {
+  background-color: #ffffff;
+  width: 100%;
+  color: #495057;
+  padding: 20px 50px 20px 50px;
+  padding-left: 20px;
+  border-top: 1px solid #e9ecef;
+}
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+
+@media (min-width: 768px) {
+  #page-wrapper {
+    margin: 0 0 0 260px;
+    padding: 15px 30px;
+    min-height: 1050px;
+  }
+
+  .navbar-side {
+    z-index: 1;
+    position: absolute;
+    width: 260px;
+  }
+}
+
+/* Soft light theme table */
+.table {
+  background-color: #ffffff;
+  color: #2c3e50;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #f8f9fa;
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+  background-color: #e3f2fd;
+}
+
+.table > thead > tr > th {
+  background-color: #6c757d;
+  color: #ffffff;
+  border-bottom: 2px solid #4a90e2;
+}
+
+/* Soft light theme buttons */
+.btn-primary {
+  background-color: #4a90e2;
+  border-color: #4a90e2;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #357abd;
+  border-color: #357abd;
+}
+
+.btn-default {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #fff;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  background-color: #5a6268;
+  border-color: #5a6268;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-danger:hover,
+.btn-danger:focus {
+  background-color: #c82333;
+  border-color: #c82333;
+}
+
+/* Soft light theme form controls */
+.form-control {
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  color: #495057;
+}
+
+.form-control:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.25);
+}
+
+/* Soft light theme alerts */
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.alert-warning {
+  background-color: #fff3cd;
+  border-color: #ffeaa7;
+  color: #856404;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+/* Soft light theme cards */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  color: #495057;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2c3e50;
+}
+
+a {
+  color: #4a90e2;
+}
+
+a:hover,
+a:focus {
+  color: #357abd;
+}
