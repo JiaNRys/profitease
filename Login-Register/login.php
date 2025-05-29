@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <link rel="stylesheet" href="../Login-Register/style.css">
 </head>
 <body>
-    <a href="../Landing-Page/landing.php" class="back-button-fa" aria-label="Go back">
+    <a href="../Landing-Page/index.html" class="back-button-fa" aria-label="Go back">
   <i class="fas fa-circle-arrow-left"></i>
 </a>
     <div class="background">
